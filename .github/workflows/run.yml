@@ -1,4 +1,4 @@
-name: cf Auto Restart
+name: CF Auto Restart
 
 on:
   push:
