@@ -1,4 +1,4 @@
-name: IBM Cloud Auto Restart
+name: cf Auto Restart
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   schedule:
-    - cron: 15 6 * * *
+    - cron: 45 22 * * *
 
 jobs:
   IBM-Cloud-CF-APP-Restart:
